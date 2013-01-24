@@ -10,6 +10,8 @@
 #define Cooked_Config_h
 
 
-#define DBName @"Cooked.sql"
+#define DBName         @"Cooked.sql"
+#define parseAppID     @"h2adRfIpPlY9ghQ0N0bpJ34Yz4koCOXCyGo4AqpE"
+#define parseClientKey @"8ySm3nGxSoO6qUY5VcgAWZ8sN1WUPvSJU29BtIMd"
 
 #endif

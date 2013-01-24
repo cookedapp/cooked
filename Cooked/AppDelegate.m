@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "Database.h"
-
+#import "Config.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -17,7 +18,26 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // lazy init singleton for database
+    [Parse setApplicationId:parseAppID clientKey:parseClientKey];
     [Database sharedDatabase];
+    
+    
+    NSMutableDictionary *info = [NSMutableDictionary dictionary];
+    [info setValue:@"test2@email.com" forKey:@"email"];
+    [info setValue:@"123456"         forKey:@"password"];
+    
+    [PFCloud callFunctionInBackground:@"RegisterUser" withParameters:info block:^(id object, NSError *error) {
+        if( error == nil )
+        {
+            NSLog(@" saved %@ ", object );
+        }
+        else
+        {
+            NSLog(@" error %@ ", error );
+        }
+    }];
+    
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

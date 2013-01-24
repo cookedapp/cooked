@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "cooked": {
+            "applicationId": "h2adRfIpPlY9ghQ0N0bpJ34Yz4koCOXCyGo4AqpE", 
+            "masterKey": "gUiVS496j0oXIOL61XauRevQ2nQ1MXVOXlEKJou1"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.1.16"
+    }
+}

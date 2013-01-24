@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830EFE9A16B0BB2A00AE8754 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830EFE9916B0BB2A00AE8754 /* Parse.framework */; };
 		83D5D27816AE100E005A0868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5D27716AE100E005A0868 /* UIKit.framework */; };
 		83D5D27A16AE100E005A0868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5D27916AE100E005A0868 /* Foundation.framework */; };
 		83D5D27C16AE100E005A0868 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5D27B16AE100E005A0868 /* CoreGraphics.framework */; };
@@ -77,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830EFE9916B0BB2A00AE8754 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		83D5D27316AE100E005A0868 /* Cooked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D5D27716AE100E005A0868 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83D5D27916AE100E005A0868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -190,6 +192,7 @@
 				83D5D27816AE100E005A0868 /* UIKit.framework in Frameworks */,
 				83D5D27A16AE100E005A0868 /* Foundation.framework in Frameworks */,
 				83D5D31B16AE16ED005A0868 /* FacebookSDK.framework in Frameworks */,
+				830EFE9A16B0BB2A00AE8754 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +429,7 @@
 		83D5D2F916AE16ED005A0868 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				830EFE9916B0BB2A00AE8754 /* Parse.framework */,
 				83D5D35D16AE36E8005A0868 /* FacebookSDKResources.bundle */,
 				83D5D35E16AE36E8005A0868 /* FBUserSettingsViewResources.bundle */,
 				83D5D32116AE1A59005A0868 /* AFNetworking */,
@@ -786,6 +790,7 @@
 				83D5D2A816AE100F005A0868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D5D2A916AE100F005A0868 /* Build configuration list for PBXNativeTarget "CookedTests" */ = {
 			isa = XCConfigurationList;
@@ -794,6 +799,7 @@
 				83D5D2AB16AE100F005A0868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
